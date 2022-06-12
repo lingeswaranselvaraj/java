@@ -1,8 +1,6 @@
 package com.springboot.java.student;
 
-import java.time.LocalDate;
 import java.util.List;
-import com.springboot.java.student.studentService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -12,19 +12,20 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "student")
-@Repository
+// (name = "student")
+@Table
+// @Repository
 public class student {
-    @Id
-    @SequenceGenerator(
-        name = "student_sequence",
-        sequenceName = "student_sequence",
-        allocationSize = 1
-    )
-    @GeneratedValue(
-        strategy = GenerationType.SEQUENCE,
-        generator = "student_sequence"
-    )
+    // @Id
+    // @SequenceGenerator(
+    //     name = "student_sequence",
+    //     sequenceName = "student_sequence",
+    //     allocationSize = 1
+    // )
+    // @GeneratedValue(
+    //     strategy = GenerationType.SEQUENCE,
+    //     generator = "student_sequence"
+    // )
 
     private Long Id;
     private String name;
