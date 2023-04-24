@@ -1,5 +1,5 @@
 name: Support Request
-description: Something went wrong and you need help?
+
 
 body:
 - type: textarea
@@ -10,7 +10,7 @@ title: 'Issue '
 labels: bug
 assignees: 'NA'
 
-
+description: Something went wrong and you need help?
 
   **To Reproduce**
   Steps to reproduce the behavior:
