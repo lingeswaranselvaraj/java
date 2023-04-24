@@ -1,15 +1,18 @@
 name: Bug report
-description: |
-  **Describe the bug**
 
 title: 'Issue '
 labels: bug
 assignees: 'NA'
 
-name: "Bug report"
+
 description: |
   **Describe the bug**
   A clear and concise description of what the bug is.
+  
+  body:
+- type: textarea
+  attributes:
+    label: "What's wrong?"
 
   **To Reproduce**
   Steps to reproduce the behavior:
