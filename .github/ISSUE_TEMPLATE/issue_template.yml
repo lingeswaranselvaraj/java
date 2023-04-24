@@ -1,4 +1,6 @@
 name: Bug report
+description: |
+  **Describe the bug**
 
 title: 'Issue '
 labels: bug
