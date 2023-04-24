@@ -1,16 +1,14 @@
-name: Support Request
+name: Bug report
 
+about: Create a report to help us improve
 
-body:
-- type: textarea
-  attributes:
-    label: "What's wrong?"
-
-title: 'Issue '
+title: 'Test'
 labels: bug
 assignees: 'NA'
 
-description: Something went wrong and you need help?
+description: |
+  **Describe the bug**
+  A clear and concise description of what the bug is.
 
   **To Reproduce**
   Steps to reproduce the behavior:
@@ -38,3 +36,9 @@ description: Something went wrong and you need help?
 
   **Additional context**
   Add any other context about the problem here.
+  
+  body:
+- type: textarea
+  attributes:
+    label: "What's wrong?"
+  
